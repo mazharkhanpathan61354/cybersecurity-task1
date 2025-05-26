@@ -1,0 +1,26 @@
+# Nmap 7.97 scan initiated Tue May 27 00:05:59 2025 as: nmap -sS -oN scan_results.txt 192.168.0.0/24
+Nmap scan report for dlinkrouter.hgu_lan (192.168.0.1)
+Host is up (0.013s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+81/tcp   open  hosts2-ns
+443/tcp  open  https
+4445/tcp open  upnotifyp
+8888/tcp open  sun-answerbook
+9999/tcp open  abyss
+MAC Address: 40:86:CB:81:70:44 (D-Link)
+
+Nmap scan report for LAPTOP-SPQPR8I0.hgu_lan (192.168.0.178)
+Host is up (0.00010s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+3306/tcp open  mysql
+
+# Nmap done at Tue May 27 00:06:56 2025 -- 256 IP addresses (2 hosts up) scanned in 57.10 seconds
